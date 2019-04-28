@@ -11,8 +11,14 @@
 <p>-Target Platform: Standalone 1024x768</p>
 
 <h5>Erstes Mini Game</h5>
+The 2D game Cherry Mary is about a character called Mary. She has to catch all the Cherrys that
+are falling down from the tree. She needs enough cherrys for an old traditionally pie cake for
+her Family and herself. Her goal is collecting as many cherrys as possible.
 
 <h5>Concept</h5>
+<div>
+<img src="./Bilder/Cherry_Mary_Concept.jpg" width="250">
+</div>
 
 <h5>Lessons Learned</h5>
 <p>- SceneLoader</p>
