@@ -7,5 +7,8 @@ public class Cherry : MonoBehaviour {
         if (collision.gameObject.name == "ColliderBottom") {
             Destroy (gameObject);
         }
+        if (collision.gameObject.name == "Mary") {
+            Destroy (gameObject);
+        }
     }
 }
