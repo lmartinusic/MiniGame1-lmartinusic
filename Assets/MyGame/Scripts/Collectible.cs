@@ -1,35 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
-public class Collectible : MonoBehaviour
-{
-    private int score = 0;
+public class Collectible : MonoBehaviour {
     // dadurch kann ich auf die Komponente zugreifen in Unity dann noch zuweisen
-    public TextMeshProUGUI pointsScore; 
+    public TextMeshProUGUI pointsScore;
+    public MyScore score;
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("Triggerevent " + collision.gameObject.name);
+    private void OnTriggerEnter2D (Collider2D collision) {
+        Debug.Log ("Triggerevent " + collision.gameObject.name);
 
-        if (collision.gameObject.name == "Fish")
-        {
-            score += 5;
-            Debug.Log("score " + score);
-            pointsScore.text = score.ToString();
+        if (collision.gameObject.name == "Mary") {
+            score.score += 5;
+            Debug.Log ("score " + score);
+            pointsScore.text = score.score.ToString ();
 
-        }
-        else if (collision.gameObject.name == "GedachteLinie")
-        {
-            score -= 10;
-            Debug.Log("score " + score);
-            pointsScore.text = score.ToString();
+        } else if (collision.gameObject.name == "ColliderBottom") {
+            score.score -= 10;
+            Debug.Log ("score " + score);
+            pointsScore.text = score.score.ToString ();
         }
     }
-	
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("CollisionEvent");
+    private void OnCollisionEnter2D (Collision2D collision) {
+        Debug.Log ("CollisionEvent");
     }
 }

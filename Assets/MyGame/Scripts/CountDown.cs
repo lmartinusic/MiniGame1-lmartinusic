@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CountDown : MonoBehaviour {
@@ -17,6 +18,9 @@ public class CountDown : MonoBehaviour {
 
 	void Update () {
 		countdown.text = ("" + timeLeft); //Showing the Score on the Canvas
+		if (timeLeft == 0) {
+			SceneManager.LoadScene ("EndScene");
+		}
 	}
 
 	//Simple Coroutine

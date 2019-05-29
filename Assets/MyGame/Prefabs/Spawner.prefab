@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfe3d4a135a7d924eb096e856d1e5aed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cherryPrefab: {fileID: 0}
+  cherryPrefab: {fileID: 114718510714455182, guid: 3862c9e9ab58545a7b4116fd16f8a475,
+    type: 2}
   cherryParent: {fileID: 1397049409087044, guid: 3d93d5b7460144d5ebe12d68801c0a77,
     type: 2}

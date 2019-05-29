@@ -11,4 +11,7 @@ public class SceneLoader : MonoBehaviour {
 	public void LoadSceneEnd () {
 		SceneManager.LoadScene ("EndScene");
 	}
+	public void LoadSceneIntro () {
+		SceneManager.LoadScene ("IntroScene");
+	}
 }
