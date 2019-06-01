@@ -8,14 +8,14 @@
 <p>-Visual Studio Code: Version 1.33.0 </p>
 <p>-Scripting Runtime Version: .NET 3.5 Equivalen</p>
 <p>-API Compatibility Level: .NET 2.0 Subs</p>
-<p>-Target Platform: Standalone 1024x768</p>
+<p>-Target Platform: WebGL (Resolution: 1024x768)</p>
 <p>-Controles: arrow key left, arrow key right, mouse click (in menu)</p>
 <p></p>
 <h5>Resources:</h5>
 <p>All imagery by Leo Martinusic, feel free to use</p>
 <p>TextMeshPro (TMP) is needed when opening the Unity Project!</p>
 
-<h5>Erstes Mini Game</h5>
+<h5>Erstes Mini Game<Standalone/h5>
 The 2D game Cherry Mary is about a character called Mary. She has to catch all the Cherrys that
 are falling down from the tree. She needs enough cherrys for an old traditionally pie cake for
 her Family and herself. Her goal is collecting as many cherrys as possible.
