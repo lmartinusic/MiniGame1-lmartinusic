@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyGame/Scenes/HelpScene.unity
     guid: 7576e9afca2b84ebcb54c329217fd4ac
+  - enabled: 1
+    path: Assets/MyGame/Scenes/GoodEndScene.unity
+    guid: ac031ad49017740349107a50c9f59b50
   m_configObjects: {}

@@ -17,4 +17,7 @@ public class SceneLoader : MonoBehaviour {
 	public void LoadSceneHelp () {
 		SceneManager.LoadScene ("HelpScene");
 	}
+	public void LoadSceneGoodEnd () {
+		SceneManager.LoadScene ("GoodEndScene");
+	}
 }
