@@ -14,15 +14,20 @@ public class Collectible : MonoBehaviour {
         if (collision.gameObject.name == "Mary") {
             score.score += 5;
             Debug.Log ("score " + score);
-            pointsScore.text = score.score.ToString ();
+            //pointsScore.text = score.score.ToString ();
 
         } else if (collision.gameObject.name == "ColliderBottom") {
             score.score -= 10;
             Debug.Log ("score " + score);
-            pointsScore.text = score.score.ToString ();
+            //pointsScore.text = score.score.ToString ();
         }
     }
     private void OnCollisionEnter2D (Collision2D collision) {
         Debug.Log ("CollisionEvent");
+    }
+
+    private void Update () {
+        pointsScore.text = score.score.ToString ();
+
     }
 }
