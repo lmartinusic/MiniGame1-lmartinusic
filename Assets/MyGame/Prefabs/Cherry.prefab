@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 61684147553467322}
   - component: {fileID: 114919499495291428}
   - component: {fileID: 114718510714455182}
-  - component: {fileID: 114657320939015502}
   m_Layer: 0
   m_Name: Cherry
   m_TagString: Untagged
@@ -90,20 +89,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.24, y: 7.68}
   m_EdgeRadius: 0
---- !u!114 &114657320939015502
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1312377914030098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfe3d4a135a7d924eb096e856d1e5aed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cherryPrefab: {fileID: 114718510714455182}
-  cherryParent: {fileID: 1397049409087044, guid: 3d93d5b7460144d5ebe12d68801c0a77,
-    type: 2}
 --- !u!114 &114718510714455182
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,8 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6f1fc031cdd5ae49995a500ac8c5678, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsScore: {fileID: 114028480460900516, guid: b6bf701334c2a43c9a009f3ae02ab95b,
-    type: 2}
+  pointsScore: {fileID: 0}
   score: {fileID: 11400000, guid: 61f027ac8f67d45b3aa18f271eb30f15, type: 2}
 --- !u!212 &212672174888785584
 SpriteRenderer:

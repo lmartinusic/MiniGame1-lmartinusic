@@ -28,6 +28,9 @@ public class Collectible : MonoBehaviour {
 
     private void Update () {
         pointsScore.text = score.score.ToString ();
+        Debug.Log ("**************************" + score.score.ToString ());
+        Debug.Log ("Pointscore" + pointsScore == null);
+        Debug.Log ("Score" + score == null);
 
     }
 }
