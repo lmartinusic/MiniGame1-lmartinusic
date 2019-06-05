@@ -15,11 +15,12 @@
 <p>All imagery by Leo Martinusic, feel free to use</p>
 <p>TextMeshPro (TMP) is needed when opening the Unity Project!</p>
 
-<h5>Erstes Mini Game<Standalone/h5>
+<h5>Erstes Mini Game</h5>
+<p></p>
 The 2D game Cherry Mary is about a character called Mary. She has to catch all the Cherrys that
 are falling down from the tree. She needs enough cherrys for an old traditionally pie cake for
 her Family and herself. Her goal is collecting as many cherrys as possible.
-
+<p></p>
 <h5>Concept</h5>
 <div>
 <img src="./Bilder/Cherry_Mary_Concept.jpg" width="250">
