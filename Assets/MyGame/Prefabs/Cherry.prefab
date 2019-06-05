@@ -111,7 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6f1fc031cdd5ae49995a500ac8c5678, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsScore: {fileID: 0}
+  pointsScore: {fileID: 114028480460900516, guid: b6bf701334c2a43c9a009f3ae02ab95b,
+    type: 2}
   score: {fileID: 11400000, guid: 61f027ac8f67d45b3aa18f271eb30f15, type: 2}
 --- !u!212 &212672174888785584
 SpriteRenderer:

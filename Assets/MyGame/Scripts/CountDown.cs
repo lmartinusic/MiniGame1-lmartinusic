@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class CountDown : MonoBehaviour {
 
-	public int timeLeft = 60; //Seconds Overall
+	public int timeLeft = 5; //Seconds Overall
 	public TextMeshProUGUI countdown; //UI Text Object
 
 	void Start () {
