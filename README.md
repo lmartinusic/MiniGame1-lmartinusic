@@ -1,6 +1,6 @@
 # MiniGame1-lmartinusic
 
-<h5>Progress:</h5> 80%
+<h5>Progress:</h5> 90%
 
 <h5>Development Platform</h5>
 <p>-OS: macOS Mojave Version 10.14.3</p>
@@ -27,6 +27,7 @@ her Family and herself. Her goal is collecting as many cherrys as possible.
 
 <p></p>
 <h5>Limitations:</h5> This Game is very simple. There is no stimulation for the user to play the game longer than a minute.
+Beautify Code in Visual Studio Code not possible
 <p></p>
 
 <h5>Lessons Learned</h5>
@@ -34,5 +35,6 @@ her Family and herself. Her goal is collecting as many cherrys as possible.
 <p>- Player Movement left, right (x-axis)</p>
 <p>- How to set up a game</p>
 <p>- RandomGenerator</p>
+<p>- Timer</p>
 <p></p>
 <p>Copyright by Leo Martinusic, 2019</p>
