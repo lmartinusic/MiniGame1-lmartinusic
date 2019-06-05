@@ -8,9 +8,6 @@ public class Collectible : MonoBehaviour {
     public TextMeshProUGUI pointsScore;
     public MyScore score;
 
-    void Start () {
-        // score.score = 0;
-    }
     private void OnTriggerEnter2D (Collider2D collision) {
         Debug.Log ("Triggerevent " + collision.gameObject.name);
 
