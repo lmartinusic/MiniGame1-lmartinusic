@@ -25,7 +25,21 @@ her Family and herself. Her goal is collecting as many cherrys as possible.
 <div>
 <img src="./Bilder/Cherry_Mary_Concept.jpg" width="250">
 </div>
-
+<p></p>
+<h5>Screenshots</h5>
+<div>
+<img src="./Bilder/start.png" width="150">
+</div>
+<div>
+<img src="./Bilder/help.png" width="150">
+</div>
+<div>
+<img src="./Bilder/main.png" width="150">
+</div>
+<div>
+<img src="./Bilder/end.png" width="150">
+</div>
+<p></p>
 <p></p>
 <h5>Limitations:</h5> This Game is very simple. There is no stimulation for the user to play the game longer than a minute.
 Beautify Code in Visual Studio Code not possible
