@@ -5,7 +5,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
+	public MyScore myscore;
+
 	public void LoadSceneMain () {
+		myscore.score = 0;
 		SceneManager.LoadScene ("MainScene");
 	}
 	public void LoadSceneEnd () {
