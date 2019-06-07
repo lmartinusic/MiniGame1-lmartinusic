@@ -1,6 +1,6 @@
 # MiniGame1-lmartinusic
 
-<h5>Progress:</h5> 90%
+<h5>Progress:</h5> 100%
 
 <h5>Development Platform</h5>
 <p>-OS: macOS Mojave Version 10.14.3</p>
@@ -51,5 +51,6 @@ Beautify Code in Visual Studio Code not possible
 <p>- How to set up a game</p>
 <p>- RandomGenerator</p>
 <p>- Timer</p>
+<p>- Score</p>
 <p></p>
 <p>Copyright by Leo Martinusic, 2019</p>
