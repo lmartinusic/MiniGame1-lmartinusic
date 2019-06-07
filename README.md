@@ -1,6 +1,6 @@
 # MiniGame1-lmartinusic
 
-<h5>Progress:</h5> 90%
+<h5>Progress:</h5> 100%
 
 <h5>Development Platform</h5>
 <p>-OS: macOS Mojave Version 10.14.3</p>
@@ -14,6 +14,10 @@
 <h5>Resources:</h5>
 <p>All imagery by Leo Martinusic, feel free to use</p>
 <p>TextMeshPro (TMP) is needed when opening the Unity Project!</p>
+<p></p>
+<p></p>
+<h5>Third Party Material:</h5>
+<p>https://www.noob-programmer.com/unity3d/countdown-timer/</p>
 
 <h5>Erstes Mini Game</h5>
 <p></p>
@@ -51,5 +55,6 @@ Beautify Code in Visual Studio Code not possible
 <p>- How to set up a game</p>
 <p>- RandomGenerator</p>
 <p>- Timer</p>
+<p>- Score</p>
 <p></p>
 <p>Copyright by Leo Martinusic, 2019</p>
