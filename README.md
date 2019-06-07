@@ -14,6 +14,10 @@
 <h5>Resources:</h5>
 <p>All imagery by Leo Martinusic, feel free to use</p>
 <p>TextMeshPro (TMP) is needed when opening the Unity Project!</p>
+<p></p>
+<p></p>
+<h5>Third Party Material:</h5>
+<p>https://www.noob-programmer.com/unity3d/countdown-timer/</p>
 
 <h5>Erstes Mini Game</h5>
 <p></p>
