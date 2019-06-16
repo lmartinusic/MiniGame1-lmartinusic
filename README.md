@@ -18,7 +18,9 @@
 <p></p>
 <h5>Third Party Material:</h5>
 <p>https://www.noob-programmer.com/unity3d/countdown-timer/</p>
-
+<h5>Trailer for the Game:</h5>
+<p>https://youtu.be/izpOXNe217g</p>
+<p></p>
 <h5>Erstes Mini Game</h5>
 <p></p>
 The 2D game Cherry Mary is about a character called Mary. She has to catch all the Cherrys that
