@@ -15,7 +15,6 @@ public class Collectible : MonoBehaviour {
 
     private void OnTriggerEnter2D (Collider2D collision) {
         Debug.Log ("Triggerevent " + collision.gameObject.name);
-
         if (collision.gameObject.name == "Mary") {
             score.score += 5;
             Debug.Log ("score " + score);
@@ -27,7 +26,6 @@ public class Collectible : MonoBehaviour {
     private void OnCollisionEnter2D (Collision2D collision) {
         Debug.Log ("CollisionEvent");
     }
-
     private void Update () {
         pointsScore.text = score.score.ToString ();
         if (score.score == 120) {
